@@ -228,12 +228,26 @@ h2 {
 
 .slide img {
   width: 70%;
+  border-radius: 10px;
 }
 
-.btn-slides {
+/*.btn-slides {
   width: 10%;
+}*/
+.buttonslider {
+  width: 50px;
+  border-radius: 50%;
+  height: 50px;
+  font-size: 25px;
+  justify-content: center;
+  align-items: center;
+  transition: background 0.5s ease;
 }
 
+.buttonslider:hover {
+  background-color: #fc7100;
+  transition: background 0.5s ease;
+}
 .description {
   padding: 10px;
   text-align: center;
@@ -282,7 +296,7 @@ textarea {
   border-radius: 5px;
 }
 
-button {
+.submitmensage button {
   width: 100%;
   height: 30px;
   cursor: pointer;
@@ -294,7 +308,7 @@ button {
   margin-top: 10px;
 }
 
-button:hover {
+.submitmensage:hover {
   background-color: #fc5000;
 }
 /* Footer */
