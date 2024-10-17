@@ -200,7 +200,47 @@ h2 {
 .members p {
   color: rgb(255, 255, 255);
 }
+/* Programações */
 
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+
+#slider {
+  width: 600px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+#slides {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.slide {
+  min-width: 600px;
+  box-sizing: border-box;
+}
+
+.slide img {
+  width: 70%;
+}
+
+.btn-slides {
+  width: 10%;
+}
+
+.description {
+  padding: 10px;
+  text-align: center;
+  background-color: #00000075;
+  color: #fff;
+  width: 100%;
+}
 /* Contato */
 .contato > .content {
   display: flex;
